@@ -23,7 +23,6 @@ These analyses aim to address questions such as:
 The data for this project was obtained from the official publication platform of the University of Economics Ho Chi Minh City (UEH). Specifically, it comprises two PDF files:
 
 <sup>ueh_graduating_score_overview_Dot3_2024.pdf</sup>
-
 <sup>ueh_graduating_score_overview_Dot4_2024.pdf</sup>
 
 
