@@ -30,3 +30,21 @@ The data for this project was obtained from the official publication platform of
 
 
 These files contain comprehensive information about the graduation scores of students for the third and fourth graduation periods of 2024, including data on the number of graduates, their academic performance, and their majors
+
+Data Preprocessing:
+To ensure the data was ready for analysis, the following steps were carried out:
+1. Extracting Data from PDFs:
+- The two PDF files were read into Python using libraries such as tabula.
+- Relevant tables containing graduation data were extracted from the PDFs.
+- The extracted tables were reviewed for completeness and consistency to ensure data integrity.
+2. Cleaning and Structuring Data:
+- Addressed data inconsistencies, such as missing values, duplicate rows, and formatting issues.
+- Added a new column to label each record with the corresponding graduation period (Đợt xét tốt nghiệp).
+- Transformed the data into a structured and standardized format, ensuring proper column headers and consistent data types.
+3. Exporting Processed Data to CSV:
+- The cleaned and consolidated DataFrame was exported as a CSV file to enable further analysis.
+- UTF-8 encoding was applied to ensure compatibility with visualization tools.
+4. Loading Data into Power BI:
+- The exported CSV file was imported into Power BI.
+- Additional transformations, such as creating calculated columns, defining measures, and applying filters, were performed within Power BI.
+- The processed data was used to build visualizations that addressed the project’s objectives, such as performance comparisons and trends
