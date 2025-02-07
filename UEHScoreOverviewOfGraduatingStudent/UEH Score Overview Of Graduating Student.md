@@ -32,14 +32,14 @@ These files contain comprehensive information about the graduation scores of stu
 
 Data Processing Flow: To ensure the data was ready for analysis, the following steps were carried out:
 1. Extracting Data from PDFs:
-- The two PDF files were read into Python using libraries such as tabula.
-- Relevant tables containing graduation data were extracted from the PDFs.
-- The extracted tables were reviewed for completeness and consistency to ensure data integrity.
+- The two PDF files were read into Python using libraries such as tabula
+- Relevant tables containing graduation data were extracted from the PDFs
+- The extracted tables were reviewed for completeness and consistency to ensure data integrity
 2. Adding labeling columns:
 - Added a new column to label each record with the corresponding graduation period (Đợt xét tốt nghiệp).
 3. Exporting Processed Data to CSV:
-- The cleaned and consolidated DataFrame was exported as a CSV file to enable further analysis.
-- UTF-8 encoding was applied to ensure compatibility with visualization tools.
+- The cleaned and consolidated DataFrame was exported as a CSV file to enable further analysis
+- UTF-8 encoding was applied to ensure compatibility with visualization tools
 4. Loading Data into Power BI:
 - The exported CSV file was imported into Power BI
 - Addressed data inconsistencies, such as missing values, duplicate rows, and formatting issues
@@ -136,3 +136,6 @@ rank_dtb_2 =
 IF([Score Rank] <> BLANK(), [score], BLANK())
 
 ```
+### Related files: 
+- Python file: [p1_data_processing](https://github.com/tiendinhquang2104/PowerBIProject/blob/main/UEHScoreOverviewOfGraduatingStudent/DataProcessing/p1_data_processing.ipynb)
+- Power BI
