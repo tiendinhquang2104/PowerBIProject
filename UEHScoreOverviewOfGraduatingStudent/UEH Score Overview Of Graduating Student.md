@@ -50,3 +50,14 @@ Data Processing Flow: To ensure the data was ready for analysis, the following s
 - Developed interactive visualizations, including bar charts, line charts, and KPI indicators, to highlight key graduation trends
 - Designed slicers and filters to allow users to drill down into specific graduation periods, departments, and student performance metrics
 - Created DAX measures to enhance analytical capabilities
+
+'''
+dtb_sinh_vien_b47 = 
+FORMAT(
+    CALCULATE(
+        AVERAGE(fact_graduating_score_overview[ĐTB TN]),
+        fact_graduating_score_overview[Số khóa học] < 47
+    ), "0.00"
+)
+
+'''
