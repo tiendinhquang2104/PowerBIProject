@@ -138,4 +138,4 @@ IF([Score Rank] <> BLANK(), [score], BLANK())
 ```
 ### Related files: 
 - Python file: [p1_data_processing](https://github.com/tiendinhquang2104/PowerBIProject/blob/main/UEHScoreOverviewOfGraduatingStudent/DataProcessing/p1_data_processing.ipynb)
-- Power BI
+- Power BI: [graduating_student_score_overview](https://github.com/tiendinhquang2104/PowerBIProject/blob/main/UEHScoreOverviewOfGraduatingStudent/Power%20BI/graduating_student_score_overview.pbix)
